@@ -9,5 +9,9 @@ function takeANumber(katzDeliLine, name) {
 function nowServing() {
   var person = katzDeliLine[0];
   katzDeliLine.shift[0];
-  return person;
+  if (katzDeliLine[0].length > 0) {
+  return person;}
+  else {
+    return "The line is currently empty.";
+  }
 }
