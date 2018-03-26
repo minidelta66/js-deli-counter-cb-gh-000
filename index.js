@@ -12,6 +12,6 @@ function nowServing() {
   if (katzDeliLine.length > 0) {
   return person;}
   else {
-    return "The line is currently empty.";
+    return "There is nobody waiting to be served!";
   }
 }
